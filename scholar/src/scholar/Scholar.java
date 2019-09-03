@@ -11,6 +11,9 @@ public class Scholar {
         
         empleado1.nombre= "Jhonnan Esmid";
         empleado1.apellido="Martinez Luquez";
+        empleado1.fecha_nacimiento="27/02/2002";
+        empleado1.calcEdad();
+        System.out.println("la edad es "+empleado1.calcEdad());
         
         empleado1.printname();
         //empleado1.identificacion = "1006575731";
@@ -18,6 +21,8 @@ public class Scholar {
         //empleado1.genero=" masculino";
         //empleado1.direccion="Cra 12#27 53";
         //empleado1.correo_electronico=" Jhojanmartiinez@gmail.com ";
+        System.out.println(" La fecha de nacimiento del empleado es "+empleado1.fecha_nacimiento);
+        
         
         
         
@@ -41,7 +46,7 @@ public class Scholar {
         //System.out.println(" EL nombre del estudiante es "+estudiante1.nombre);
         //System.out.println(" El apellido del estudiante es "+estudiante1.apellido);
         
-        
+       
      
         
         
