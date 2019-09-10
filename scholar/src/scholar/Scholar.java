@@ -1,30 +1,33 @@
 
 package scholar;
 
-
+import java.util.Scanner;
 public class Scholar {
 
     
     public static void main(String[] args) {
         
+        Scanner lectura=new Scanner(System.in);
+    int año_nacimiento;
+    int año_actual;
+        
         Empleado empleado1 = new Empleado();
         
         empleado1.nombre= "Jhonnan Esmid";
         empleado1.apellido="Martinez Luquez";
-        empleado1.fecha_nacimiento="27/02/2002";
-        empleado1.calcEdad();
-        System.out.println("la edad es "+empleado1.calcEdad());
         
-        empleado1.printname();
-        //empleado1.identificacion = "1006575731";
-        //empleado1.fecha_nacimiento="27/02/2002";
-        //empleado1.genero=" masculino";
-        //empleado1.direccion="Cra 12#27 53";
-        //empleado1.correo_electronico=" Jhojanmartiinez@gmail.com ";
-        System.out.println(" La fecha de nacimiento del empleado es "+empleado1.fecha_nacimiento);
+        System.out.println(" Digite año de nacimiento ");
+        año_nacimiento=lectura.nextInt();
         
+        System.out.println("digite año actual");
+          
+        año_actual=lectura.nextInt();
+                
+        int Edad = año_actual-año_nacimiento;
+        System.out.println("tu edad es"+Edad);
+       
         
-        
+              
         
        
         

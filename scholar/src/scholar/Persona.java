@@ -4,7 +4,8 @@ public class Persona {
 
     public String nombre;
     public String apellido;
-    public String fecha_nacimiento;
+    public int año_nacimiento;
+    public int año_actual;
     public String tipo_sangre;
     public String nacionalidad;
     public String identificacion;
@@ -29,14 +30,7 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    public String getFecha_nacimiento() {
-        return fecha_nacimiento;
-    }
-
-    public void setFecha_nacimiento(String fecha_nacimiento) {
-        this.fecha_nacimiento = fecha_nacimiento;
-    }
-
+    
     public String getTipo_sangre() {
         return tipo_sangre;
     }
